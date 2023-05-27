@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    font-family: cursive;
+    padding: 25px;
+    background-color: #32de84;
+}
+
+#grno{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#password{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+
+#login{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+    padding-right: 130px;
+    font-size: 30px;
+    border-radius: 50px;
+    border-width: 3px;
+    background-color: aqua;
+}
+
+
+
+#role{
+    
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
