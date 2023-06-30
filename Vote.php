@@ -19,7 +19,7 @@
 
 <html>
     <title>IPHS-Vote Page</title>
-<link rel="stylesheet" href="css/stylesheet2.css">
+<link rel="stylesheet" href="stylesheet2.css">
 <div>
 <a href="logout.php"><button id="Logout" type="submit">Logout</button></a>
  <h1 id="header">Election System</h1><hr>
@@ -35,7 +35,7 @@
                 <div>
                     <b>Group Name: <?php echo $groupdata[$i]['NAME'] ?></b>
                     <!-- <b>Votes: <?php echo $groupdata[$i]['votes'] ?></b> -->
-                    <form action="api/vote.php" method="POST">
+                    <form action="voteapi.php" method="POST">
                         <input type="hidden" name="gvotes" value="<?php echo $groupdata[$i]['votes'] ?>">
                         <input type="hidden" name="gid" value="<?php echo $groupdata[$i]['id'] ?>"><br>
                         <?php 
